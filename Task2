@@ -1,0 +1,91 @@
+ HTML
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat">
+            <div class="bubble neon-green"><span class="icon user"></span></div>
+            <div class="bubble neon-blue"><span>Message bubble</span></div>
+            <div class="bubble neon-orange"><span>Typing...</span></div>
+        </div>
+        <div class="notifications">
+            <div class="emoji neon-pink">😄<span class="count">6</span></div>
+            <div class="message-alert neon-red"><span class="icon"></span><span class="count">1</span></div>
+            <div class="status neon-green"><span class="checkmark">✔✔</span></div>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+### CSS (styles.css)
+```css
+body {
+    background-color: #0a0a0a;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+    max-width: 1000px;
+    color: white;
+}
+
+.chatTo achieve a similar design for this image using web development, you'd primarily use HTML, CSS, and possibly some JavaScript for interactions or animations.
+
+Here's a basic example using HTML and CSS to create chat bubbles, notifications, and emoji indicators with a neon outline effect similar to the style you shared:
+
+### HTML
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat">
+            <div class="bubble neon-green"><span class="icon user"></span></div>
+            <div class="bubble neon-blue"><span>Message bubble</span></div>
+            <div class="bubble neon-orange"><span>Typing...</span></div>
+        </div>
+        <div class="notifications">
+            <div class="emoji neon-pink">😄<span class="count">6</span></div>
+            <div class="message-alert neon-red"><span class="icon"></span><span class="count">1</span></div>
+            <div class="status neon-green"><span class="checkmark">✔✔</span></div>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+### CSS (styles.css)
+```css
+body {
+    background-color: #0a0a0a;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+    max-width: 1000px;
+    color: white;
+}
+
+.chat
